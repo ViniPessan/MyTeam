@@ -1,0 +1,15 @@
+.background{
+  margin: 0;
+ background-image: url('/team2.jpg');
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 100vh;
+ overflow-y: auto;
+ position: fixed; 
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+

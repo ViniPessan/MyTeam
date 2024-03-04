@@ -1,0 +1,220 @@
+
+.cardUpdate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  padding: 10px;
+  margin: 15px auto;
+  background-color: rgba(0, 0, 0, 0.692);
+  color: rgb(218, 218, 218);
+  border-radius: 20px;
+}
+
+
+
+.imgUpdate{
+  width: 150px;
+  border: black 3px solid;
+  border-radius: 50%;
+  margin: 0px 30px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  color: beige;
+}
+
+.label{
+  font-size: 16px;
+  padding: 7px;
+}
+
+.input{
+  border: 2px solid black;
+  color: black;
+  width: 235px;
+  padding: 0px 2px;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  padding: 10px;
+  width: 400px;
+  margin: 0px auto;
+  background-color: rgba(0, 0, 0, 0.692);
+  color: rgb(218, 218, 218);
+  border-radius: 20px;
+}
+
+
+.img{
+  width: 200px;
+  border: black 3px solid;
+  border-radius: 50%;
+  margin: 0px 30px;
+}
+
+.username{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.email{
+  font-size: 24px;
+  padding: 10px;
+}
+
+.bntOption{
+  padding: 10px;
+  font-size: 20px;
+}
+
+.btn{
+  border: 2px solid rgb(216, 14, 14);
+  background-color: transparent;
+  width: 100px;
+  padding: 5px;
+  margin: 15px 30px;
+  border-radius: 10px;
+
+  cursor: pointer;
+  transition: 0.4s;
+
+  &:hover{
+    border: 2px solid rgb(171, 0, 0);
+    color: rgb(216, 14, 14);
+    padding-top: 5px;
+  }
+
+  
+}
+
+.btn1{
+  border: 2px solid rgb(0, 253, 0);
+  background-color: transparent;
+  width: 100px;
+  padding: 5px;
+  margin: 15px 30px;
+  border-radius: 10px;
+
+  cursor: pointer;
+  transition: 0.4s;
+
+  &:hover{
+    border: 2px solid rgb(1, 120, 1);
+    color:  rgb(1, 120, 1);
+    padding-top: 5px;
+  }
+
+  
+}
+
+@media(max-width: 625px){
+  .card{
+    height: auto;
+    width: auto;
+    margin: 0px auto;
+    padding: 20px 15px;
+  }
+
+  .img{
+    width: 125px;
+    margin: 0px 15px 15px 15px;
+  }
+
+  .username{
+    font-size: 23px;
+    padding: 7px;
+  }
+
+  .email{
+    font-size: 18px;
+    padding: 7px;
+  }
+
+  .btn{
+    width: 100px;
+    padding: 5px;
+    margin: 10px 15px;
+
+  }
+  
+  .btn1{
+
+    width: 100px;
+    padding: 5px;
+    margin: 10px 15px;
+
+  }
+}
+
+@media(max-width: 375px){
+  .card{
+    height: auto;
+    width: auto;
+    margin: 20px;
+    padding: 15px 5px;
+  }
+
+  .img{
+    width: 130px;
+    margin: 0px 15px 15px 15px;
+  }
+
+  .username{
+    font-size: 25px;
+    padding: 7px;
+  }
+
+  .email{
+    font-size: 18px;
+    padding: 7px;
+  }
+
+  .btn{
+    width: 90px;
+    padding: 5px;
+    margin: 15px 15px;
+    font-size: 18px;
+
+  }
+  
+  .btn1{
+    width: 90px;
+    padding: 5px;
+    margin: 15px 15px;
+    font-size: 18px;
+  }
+
+  .bntOption{
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10  px;
+  }
+
+  .imgUpdate{
+    width: 120px;
+    border: black 3px solid;
+    border-radius: 50%;
+    margin: 0px 30px;
+  }
+  
+  
+  .label{
+    font-size: 16px;
+    padding: 5px;
+  }
+  
+  .input{
+    border: 2px solid black;
+  }
+}
