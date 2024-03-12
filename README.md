@@ -1,4 +1,4 @@
-Esse é um projeto pessoal criado com a finalidade de praticar algumas coisas, como por exemplo: Consumir API, utilzar axios, praticar todas as operações CRUD e também consegui praticar um pouco de backend, criação de rotar e conexão com o banco de dados.
+Esse é um projeto pessoal criado com a finalidade de praticar algumas coisas, como por exemplo: Consumir API, utilzar axios, praticar todas as operações CRUD e também consegui praticar um pouco de backend, criação de rotas e conexão com o banco de dados.
 
 Utilizei alguns outros frameworks, como next, bootstrap, sass e react.
 
