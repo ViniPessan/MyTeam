@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Esse é um projeto pessoal criado com a finalidade de praticar algumas coisas, como por exemplo: Consumir API, utilzar axios, praticar todas as operações CRUD e também consegui praticar um pouco de backend, criação de rotas e conexão com o banco de dados.
 
-## Getting Started
+Utilizei alguns outros frameworks, como next, bootstrap, sass e react.
 
-First, run the development server:
+1 - Home 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![Sem título](https://github.com/ViniPessan/MyTeam-Frontend/assets/136939544/b3569d4e-9760-4930-a9b3-30ce0c835d04)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2 - Time sem logar
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Sem título1](https://github.com/ViniPessan/MyTeam-Frontend/assets/136939544/250e420b-8932-45b9-9dc5-7494d71351cc)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3 - Time logado 
 
-## Learn More
+![Sem título5](https://github.com/ViniPessan/MyTeam-Frontend/assets/136939544/8b2e4cf8-79a5-4cbf-8e8b-19cc9ecd9736)
 
-To learn more about Next.js, take a look at the following resources:
+4 - Login 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Sem título3](https://github.com/ViniPessan/MyTeam-Frontend/assets/136939544/fb19c17e-0e1c-4eec-a348-b87ddcdfbd4c)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5 - Cadastro 
 
-## Deploy on Vercel
+![Sem título4](https://github.com/ViniPessan/MyTeam-Frontend/assets/136939544/a4209dcd-e86b-40ec-9df6-ee79010d91e6)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+6 - Lista de usuários
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Sem título6](https://github.com/ViniPessan/MyTeam-Frontend/assets/136939544/9a7461f8-82e9-4fce-8a38-ffb32b2e211d)
+
+7 - Perfi de usuário
+
+![Sem título7](https://github.com/ViniPessan/MyTeam-Frontend/assets/136939544/2a9999cd-4166-4219-9089-e83725c0140a)
+
+
