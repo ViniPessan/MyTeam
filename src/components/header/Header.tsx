@@ -1,37 +1,33 @@
-'use client'
+'use client';
 import Link from "next/link";
 import styles from "./style.module.scss";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-
-
 export default function Header() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [userName, setUserName] = useState("");
-
-  const id = typeof window !== 'undefined' ? sessionStorage.getItem('userId') : null;
+  const [userId, setUserId] = useState<string | null>(null);
 
   useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const token = sessionStorage.getItem('token');
+      const id = sessionStorage.getItem('userId');
+      
+      setIsLoggedIn(!!token);
+      setUserId(id);
 
-    const token = sessionStorage.getItem('token');
-    setIsLoggedIn(!!token);
-
-    if (id) {
-      axios.get(`http://localhost:3000/users/${id}`)
-        .then(response => {
-          setUserName(response.data.name);
-        })
-        .catch(error => {
-          console.error('Erro ao buscar o nome do usuário:', error);
-        });
+      if (id) {
+        axios.get(`http://localhost:3000/users/${id}`)
+          .then(response => {
+            setUserName(response.data.name);
+          })
+          .catch(error => {
+            console.error('Erro ao buscar o nome do usuário:', error);
+          });
+      }
     }
-
-    
-
-  }, [id]); 
-
-    
+  }, []);
 
   const handleLogout = () => {
     sessionStorage.removeItem('token');
@@ -49,7 +45,7 @@ export default function Header() {
             <Link className={styles.options} href="/">Início</Link>
             <Link className={styles.options} href="/team">Time</Link>
             <Link className={styles.options} href="/users">Usuários</Link>
-            <Link className={styles.options} href={`/profile/${id}`}>{userName}</Link>
+            <Link className={styles.options} href={`/profile/${userId}`}>{userName}</Link>
             <button className={styles.btn} onClick={handleLogout}>Sair</button>
           </div>
         </div>
