@@ -21,15 +21,18 @@ export default function LoginCard(){
     try {
       const response = await axios.post('http://localhost:3000/login', {
         email,
-        password
+        password,
       });
       console.log('Resposta do servidor:', response.data);
-
-      const {token, userId} = response.data; 
-      alert("Login realizado com sucesso. Seja bem-vindo!")
-      sessionStorage.setItem('token', token);
-      sessionStorage.setItem('userId', userId);
-      
+  
+      const { token, userId } = response.data;
+      alert("Login realizado com sucesso. Seja bem-vindo!");
+  
+      if (typeof window !== 'undefined') {
+        sessionStorage.setItem('token', token);
+        sessionStorage.setItem('userId', userId);
+      }
+  
       window.location.href = "/";
     } catch (error) {
       console.error('Erro ao fazer login:', error);
